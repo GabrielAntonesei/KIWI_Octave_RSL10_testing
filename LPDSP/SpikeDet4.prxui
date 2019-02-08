@@ -1,0 +1,83 @@
+<prxusersettings>
+    <zlayout>
+        <perspective type="dev">
+            <VerPaneNode>
+                <HorPaneNode size="2">
+                    <ViewBookNode size="2">
+                        <window name="ProjectView" visible="1" select="1"/>
+                        <window name="SrcRefView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <EditorBookNode size="3">
+                        <window name="editor1" visible="1" select="0"/>
+                        <window name="editor2" visible="1" select="1"/>
+                        <window name="editor0" visible="1" select="0"/>
+                    </EditorBookNode>
+                </HorPaneNode>
+                <ViewBookNode size="1">
+                    <window name="ConsoleView" visible="1" select="1"/>
+                </ViewBookNode>
+            </VerPaneNode>
+        </perspective>
+        <perspective type="iss">
+            <HorPaneNode>
+                <VerPaneNode size="3">
+                    <ViewBookNode size="3">
+                        <window name="ProjectView" visible="0" select="0"/>
+                        <window name="MicView" visible="1" select="1"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="2">
+                        <window name="StatsView" visible="1" select="1"/>
+                        <window name="RegisterView" visible="1" select="0"/>
+                        <window name="StorageView" visible="0" select="0"/>
+                        <window name="PipelineView" visible="0" select="0"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+                <VerPaneNode size="4">
+                    <EditorBookNode size="403">
+                        <window name="editor0" visible="1" select="0"/>
+                        <window name="editor1" visible="1" select="0"/>
+                        <window name="editor2" visible="1" select="1"/>
+                        <window name="editor3" visible="1" select="0"/>
+                    </EditorBookNode>
+                    <ViewBookNode size="131">
+                        <window name="HostedIOView" visible="1" select="1"/>
+                        <window name="FileIOView" visible="0" select="0"/>
+                        <window name="VarInfoView" visible="0" select="0"/>
+                        <window name="LocalVarView" visible="1" select="0"/>
+                        <window name="BreakWatchView" visible="0" select="0"/>
+                        <window name="ProfilingView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="170">
+                        <window name="ConsoleView" visible="1" select="1"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+            </HorPaneNode>
+        </perspective>
+        <editor id="editor0" file="C:/Synopsys/lpdsp32-v3_vO-2018.09_windows/lpdsp32-v3_vO-2018.09/lib/lpdsp32.bcf" top="1.0" cursor="1.0" foldmap="1" linemap="0"/>
+        <editor id="editor1" file="lpdsp32_init.s" top="17.0" cursor="1.0" foldmap="1" linemap="0"/>
+        <editor id="editor2" file="main.c" top="164.0" cursor="189.20" foldmap="1" linemap="0"/>
+        <editor id="editor3" file="C:/Synopsys/lpdsp32-v3_vO-2018.09_windows/lpdsp32-v3_vO-2018.09/lib/lpdsp32_irq.h" top="47.0" cursor="1.0" foldmap="1" linemap="0"/>
+    </zlayout>
+    <active cfg="Release" dbg="&lt;None&gt;"/>
+    <selectsim type="ISSCA" exe="&lt;PROCDIR&gt;/../iss/lpdsp32"/>
+    <issui>iss varinfo::locals last_sort {1 -increasing}
+iss profiling storage_access_history_logging Off
+iss registers isvisible {} notvisible {}
+iss storages isvisible {} notvisible {}
+iss varinfo::statics last_sort {1 -increasing}
+iss memory::DM start_field 0 vector 0
+iss memory::SDM start_field 0 vector 0
+iss memory::SDMIO start_field 0 vector 0
+iss memory::SDMA start_field 0 vector 0
+iss memory::WDM start_field 0 vector 0
+iss memory::WDMB start_field 0 vector 0
+iss memory::SDMB start_field 0 vector 0
+iss memory::LDMA start_field 0 vector 0
+iss memory::LPM start_field 0 vector 0
+iss memory::PM start_field 0 vector 0
+iss memory::LDM start_field 0 vector 0
+iss memory::WDMA start_field 0 vector 0
+iss memory::WDMIO start_field 0 vector 0
+iss profiling value(stepped) 1 value(profile_storages) {{DM} {PM}}
+iss waveform vars {{time {} {}}} signal_info {time {color green num_format %x} {time {} {}} {color green num_format %x}}</issui>
+</prxusersettings>

@@ -1,0 +1,6 @@
+<project name="Project" processor="lpdsp32">
+    <file type="c" name="main.c" path=""/>
+    <file type="a" name="lpdsp32_init.s" path=""/>
+    <option id="project.name" value="SpikeDet4"/>
+    <option id="project.type" value="exe"/>
+</project>
